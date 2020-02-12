@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29721.120
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Betabit.Training.Azure.KeyVault.ConsoleApp", "Betabit.Training.Azure.KeyVault.ConsoleApp\Betabit.Training.Azure.KeyVault.ConsoleApp.csproj", "{F781E6BE-8993-464E-ABFA-BDE868416A80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Betabit.Training.Azure.KeyVault.ConsoleApp.Old", "Betabit.Training.Azure.KeyVault.ConsoleApp.Old\Betabit.Training.Azure.KeyVault.ConsoleApp.Old.csproj", "{B6D9734C-96E1-4515-975A-9CAF2CDBA6A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Betabit.Training.Azure.Common", "Betabit.Training.Azure.Common\Betabit.Training.Azure.Common.csproj", "{47D56041-964B-4D87-B414-27D1C47F4F50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Betabit.Training.Azure.KeyVault.Functions", "Betabit.Training.Azure.KeyVault.Functions\Betabit.Training.Azure.KeyVault.Functions.csproj", "{68A32855-36D6-4AE3-A7B3-C300FE918F41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KeyVault", "KeyVault", "{3FD4C5BA-716A-442F-972D-8C6B8226FC11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceBus", "ServiceBus", "{22D50D1D-C20E-4A65-94B6-898B45913FE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Betabit.Training.Azure.ServiceBus.ConsoleApp", "Betabit.Training.Azure.ServiceBus.ConsoleApp\Betabit.Training.Azure.ServiceBus.ConsoleApp.csproj", "{6449FC09-7A99-4665-9F6F-338FF0410F5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Betabit.Training.Azure.ServiceBus.Functions", "Betabit.Training.Azure.ServiceBus.Functions\Betabit.Training.Azure.ServiceBus.Functions.csproj", "{68E4144C-832F-4310-8C04-D536980E291E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{7AA5A7FB-B90B-4833-98F2-4FAD86491438}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationInsights", "ApplicationInsights", "{0DEC4625-A721-437A-9926-E8B2DC5979E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Betabit.Training.Azure.ApplicationInsights.ConsoleApp", "Betabit.Training.Azure.ApplicationInsights.ConsoleApp\Betabit.Training.Azure.ApplicationInsights.ConsoleApp.csproj", "{593D772C-3C9A-4635-8C46-1ED61BFC130C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F781E6BE-8993-464E-ABFA-BDE868416A80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F781E6BE-8993-464E-ABFA-BDE868416A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F781E6BE-8993-464E-ABFA-BDE868416A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F781E6BE-8993-464E-ABFA-BDE868416A80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6D9734C-96E1-4515-975A-9CAF2CDBA6A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D9734C-96E1-4515-975A-9CAF2CDBA6A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D9734C-96E1-4515-975A-9CAF2CDBA6A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D9734C-96E1-4515-975A-9CAF2CDBA6A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47D56041-964B-4D87-B414-27D1C47F4F50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47D56041-964B-4D87-B414-27D1C47F4F50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47D56041-964B-4D87-B414-27D1C47F4F50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47D56041-964B-4D87-B414-27D1C47F4F50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68A32855-36D6-4AE3-A7B3-C300FE918F41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A32855-36D6-4AE3-A7B3-C300FE918F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A32855-36D6-4AE3-A7B3-C300FE918F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A32855-36D6-4AE3-A7B3-C300FE918F41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6449FC09-7A99-4665-9F6F-338FF0410F5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6449FC09-7A99-4665-9F6F-338FF0410F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6449FC09-7A99-4665-9F6F-338FF0410F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6449FC09-7A99-4665-9F6F-338FF0410F5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68E4144C-832F-4310-8C04-D536980E291E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68E4144C-832F-4310-8C04-D536980E291E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68E4144C-832F-4310-8C04-D536980E291E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68E4144C-832F-4310-8C04-D536980E291E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{593D772C-3C9A-4635-8C46-1ED61BFC130C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{593D772C-3C9A-4635-8C46-1ED61BFC130C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{593D772C-3C9A-4635-8C46-1ED61BFC130C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{593D772C-3C9A-4635-8C46-1ED61BFC130C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F781E6BE-8993-464E-ABFA-BDE868416A80} = {3FD4C5BA-716A-442F-972D-8C6B8226FC11}
+		{B6D9734C-96E1-4515-975A-9CAF2CDBA6A7} = {3FD4C5BA-716A-442F-972D-8C6B8226FC11}
+		{47D56041-964B-4D87-B414-27D1C47F4F50} = {7AA5A7FB-B90B-4833-98F2-4FAD86491438}
+		{68A32855-36D6-4AE3-A7B3-C300FE918F41} = {3FD4C5BA-716A-442F-972D-8C6B8226FC11}
+		{6449FC09-7A99-4665-9F6F-338FF0410F5B} = {22D50D1D-C20E-4A65-94B6-898B45913FE5}
+		{68E4144C-832F-4310-8C04-D536980E291E} = {22D50D1D-C20E-4A65-94B6-898B45913FE5}
+		{593D772C-3C9A-4635-8C46-1ED61BFC130C} = {0DEC4625-A721-437A-9926-E8B2DC5979E2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D65DEC9-B6BA-4673-8A04-4AA2874B66FA}
+	EndGlobalSection
+EndGlobal
